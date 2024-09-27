@@ -1,0 +1,30 @@
+
+#imagen-carrusel{
+    width:500px;
+    height: 500px;
+}
+.carousel-control-next-icon{
+    background-color:rgb(126, 69, 126);
+}
+.carousel-control-prev-icon{
+    background-color: rgb(126, 69, 126);
+}
+.carousel-item {
+    justify-content: center;
+    background-color: thistle;
+  }
+ 
+#titulo-principal{
+
+}
+h2{
+    text-align:center;
+    background-color: thistle;
+}
+
+#titulo-principal{
+    text-align: center;
+    color: thistle;
+    font-size: 100px;
+    ho
+}
