@@ -20,11 +20,18 @@
 h2{
     text-align:center;
     background-color: thistle;
+    font-family: "Playwrite DE Grund", cursive;
 }
 
 #titulo-principal{
     text-align: center;
     color: thistle;
     font-size: 100px;
-    ho
+    font-family: "Playwrite DE Grund", cursive;
+}
+
+#titulo-tabla{
+    background-color: plum;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
 }

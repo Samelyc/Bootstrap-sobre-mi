@@ -7,6 +7,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -44,11 +47,11 @@
 <br>
 <div class="accordion accordion-flush" id="accordionFlushExample">
   <div class="accordion-item">
-    <h2 class="accordion-header">
+    <h3 class="accordion-header">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
         Videojuegos
       </button>
-    </h2>
+    </h3>
     <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
       <div class="card-body">
         <strong> 
@@ -91,11 +94,11 @@
         </div>
       </div>
       <div class="accordion-item">
-        <h2 class="accordion-header">
+        <h3 class="accordion-header">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
             Crochet
           </button>
-        </h2>
+        </h3>
         <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
             <strong>
@@ -114,11 +117,11 @@
       </div>
 
       <div class="accordion-item">
-        <h2 class="accordion-header">
+        <h3 class="accordion-header">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
             Pintura
           </button>
-        </h2>
+        </h3>
         <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
             <strong>
@@ -137,45 +140,55 @@
       </div>
 <br>
 <h2 id="h2">Top 5 de canciones favs</h2>
-    <div class="container text-center">
-      <div class="row g-2">
-        <div class="col-6">
-          <div class="p-3"><li>Mi canción fav es: 
-            <a href="https://www.youtube.com/watch?v=HgzGwKwLmgM">Don't stop me now - Qeen</a>
-            </li></div>
-        </div>
-        <div class="col-6">
-          <div class="p-3"><li>Esta canción me recuerda mucho a los viajes con mi familia: 
-            <a href="https://www.youtube.com/watch?v=6eln48BCELk">Tonight Is What It Means To Be Young - Fire Inc</a>
-        </li>
-      </div>
-        </div>
-        <div class="col-6">
-          <div class="p-3"><li>Esta canción me pone de buenas: 
-            <a href="https://www.youtube.com/watch?v=kXB-Ibr55LI">Hawaiian Roller Coaster Ride (From "Lilo & Stitch")</a>
-        </li>
-      </div>
-        </div>
-        <div class="col-6">
-          <div class="p-3"> <li>No recuerdo de que anime es esta canción pero me gusta mucho: 
-            <a href="https://www.youtube.com/watch?v=2EIHak0--40">気づけよBaby - THE ORAL CIGARETTES</a>
-        </li>
-      </div>
-        </div>
-        <div class="col-6"></div>
-          <div class="p-3"><li>Simplemente tremenda JOYA: 
-            <a href="https://www.youtube.com/watch?v=ulfAcrU-F7g&t=82s">Guren - The Gazette</a>
-         </li>
-      </div>
-        </div>
-        <div class="col-6"></div>
-          <div class="p-3"><li>La canción que disfruto con mi mejor amiga: 
-            <a href="https://www.youtube.com/watch?v=kTJczUoc26U">STAY - The Kid LAROI, Justin Bieber</a>
-        </li>
-      </div>
-        </div>
-      </div>
-    </div>
+<br>
+<table class="table">
+  <thead class="table-light">
+    <tr>
+      <th id="titulo-tabla" scope="col">Número</th>
+      <th  id="titulo-tabla" scope="col">Por qué</th>
+      <th  id="titulo-tabla" scope="col">Canción</th>
+      <th  id="titulo-tabla" scope="col">Artista</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1 </th>
+      <td>Mi canción favavorita</td>
+      <td><a href="https://www.youtube.com/watch?v=HgzGwKwLmgM">Don't stop me now</a></td>
+      <td>Queen</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Esta canción me recuerda mucho
+        <br>
+         a los viajes con mi familia</td>
+      <td><a href="https://www.youtube.com/watch?v=6eln48BCELk">Tonight Is What It Means To Be Young</a></td>
+      <td>Fire Inc</td>
+    </tr>
+    <th scope="row">3</th>
+    <td>Esta canción me pone de buenas</td>
+    <td><a href="https://www.youtube.com/watch?v=kXB-Ibr55LI">Hawaiian Roller Coaster Ride</a></td>
+    <td>(From "Lilo & Stitch")</td>
+  </tr>
+  <th scope="row">4</th>
+  <td>No recuerdo de que anime es esta 
+      <br>
+    canción pero me gusta mucho</td>
+  <td><a href="https://www.youtube.com/watch?v=2EIHak0--40">気づけよBaby</a></td>
+  <td>THE ORAL CIGARETTES</td>
+</tr>
+<th scope="row">5</th>
+<td>Simplemente tremenda JOYA</td>
+<td><a href="https://www.youtube.com/watch?v=ulfAcrU-F7g&t=82s">Guren</a></td>
+<td>The Gazette</td>
+</tr>
+<th scope="row">Pilon</th>
+<td>La canción que disfruto con mi mejor amiga</td>
+<td><a href="https://www.youtube.com/watch?v=kTJczUoc26U">STAY</a></td>
+<td>The Kid LAROI, Justin Bieber</td>
+</tr>
+  </tbody>
+</table>
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
