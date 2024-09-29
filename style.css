@@ -35,3 +35,39 @@ h2{
     text-align: center;
     font-family: "Montserrat", sans-serif;
 }
+
+#boton-nav{
+    background-color: plum;
+    font-family: "Montserrat", sans-serif;
+    border-color: blueviolet;
+}
+#boton-nav:hover{
+    background-color:hotpink;
+    color: ivory;
+}
+
+#sobre-mi{
+    font-family: "Montserrat", sans-serif;
+    color: blueviolet;
+    font-size: 20px;
+}
+
+.icon-link{
+    font-family: "Montserrat", sans-serif;
+    color: blueviolet;
+}
+.icon-link:hover{
+    
+    color: hotpink;
+}
+
+#boton-videojuegos{
+    background-color: plum;
+    font-family: "Montserrat", sans-serif;
+    border-color: blueviolet;
+}
+
+#boton-videojuegos:hover{
+    background-color:hotpink;
+    color: ivory;
+}
