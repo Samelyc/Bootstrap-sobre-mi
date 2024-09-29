@@ -11,12 +11,8 @@
 }
 .carousel-item {
     justify-content: center;
-    background-color: thistle;
   }
  
-#titulo-principal{
-
-}
 h2{
     text-align:center;
     background-color: thistle;
@@ -48,8 +44,7 @@ h2{
 
 #sobre-mi{
     font-family: "Montserrat", sans-serif;
-    color: blueviolet;
-    font-size: 20px;
+    font-size: 40px;
 }
 
 .icon-link{
@@ -70,4 +65,8 @@ h2{
 #boton-videojuegos:hover{
     background-color:hotpink;
     color: ivory;
-}
+ }
+
+ body{
+    background:linear-gradient(0deg, rgba(121,195,245,1) 11%, rgba(242,178,234,1) 53%, rgba(190,123,181,1) 100%);
+    }
